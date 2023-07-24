@@ -79,7 +79,7 @@ const jeff = new THREE.Mesh(
 );
 //scene.add(jeff);
 
-const earthTexture = new THREE.TextureLoader().load('public/img/earth.jpg');
+const earthTexture = new THREE.TextureLoader().load('https://static.wikia.nocookie.net/7e70da43-c141-4541-b49d-2ee513736a2e/scale-to-width/755');
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(4, 32, 32),
   new THREE.MeshStandardMaterial({map: earthTexture}),
