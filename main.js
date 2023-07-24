@@ -18,7 +18,6 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 const hiddenElements = document.querySelectorAll(".hide");
-console.log(el);
 hiddenElements.forEach((el) => observer.observe(el));
 
 //ANIMATED 3D BACKGROUND
