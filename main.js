@@ -37,7 +37,7 @@ camera.position.z  = 10;
 renderer.render(scene,camera);
 
 const geometry = new THREE.SphereGeometry(1, 32, 32);
-const moonTexture = new THREE.TextureLoader().load('https://1721181113.rsc.cdn77.org/data/images/full/40533/china-released-a-detailed-map-of-the-moon-using-data-collected-over-the-past-15-years.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://public-files.gumroad.com/swfpmx3szd2bbajccgfv04lv2e4m');
 const material = new THREE.MeshStandardMaterial({map: moonTexture});
 const moon = new THREE.Mesh(geometry, material);
 moon.position.set(30,0.7,30)
