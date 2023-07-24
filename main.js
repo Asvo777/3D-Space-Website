@@ -10,14 +10,16 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry)
     var rectEntry = entry.getBoundingClientRect();
-    if (entry.isIntersecting && rectEntry.bottom === 0) {
+    if (entry.isIntersecting && rectEntry.bottom <= 0) {
       entry.target.classList.add('show');
     }
   });
 });
 
 const hiddenElements = document.querySelectorAll(".hide");
+console.log(hiddenElements[0]);
 hiddenElements.forEach((el) => observer.observe(el));
+
 
 //ANIMATED 3D BACKGROUND
 
