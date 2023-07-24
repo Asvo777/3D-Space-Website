@@ -37,7 +37,7 @@ camera.position.z  = 10;
 renderer.render(scene,camera);
 
 const geometry = new THREE.SphereGeometry(1, 32, 32);
-const moonTexture = new THREE.TextureLoader().load('https://cdn.wallpapersafari.com/95/79/w4tqJx.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://richardandersson.net/wp-content/uploads/2016/08/Moon.Diffuse_21600x10800-1024x512.jpg');
 const material = new THREE.MeshStandardMaterial({map: moonTexture});
 const moon = new THREE.Mesh(geometry, material);
 moon.position.set(30,0.7,30)
