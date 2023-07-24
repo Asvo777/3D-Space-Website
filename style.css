@@ -40,7 +40,9 @@ h2{
 }
 
 .earth-title h1{
+  position: relative;
   font-size: 100px;
+  left: 25px;
 }
 
 .earth-title h2{
