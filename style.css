@@ -35,8 +35,15 @@ h2{
   left: 38px;
 }
 
-#moon {
+#earth, #moon {
   height: auto;
+  color: rgba(174, 174, 174, 0.728);
+}
+
+
+#earth:hover, #moon:hover {
+  height: auto;
+  color: aqua;
 }
 
 .earth-title h1{
