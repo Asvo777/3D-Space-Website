@@ -25,8 +25,7 @@ nav{
 }
 
 h1{
-  width: fit-content;
-  font-size: 200px;
+  font-size: 80px;
   margin: 80px 0 0 40px;
   border-bottom: solid #fafdff;
 }
@@ -168,11 +167,9 @@ h2{
 .hide{
   opacity: 0;
   filter: blur(3px);
-  transform: translateX(-10%);
   transition: all 1s;
 }
 .show{
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
 }
