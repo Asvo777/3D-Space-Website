@@ -9,8 +9,8 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry)
-    var entryBottom = entry.getBoundingClientRect.bottom();
-    if (entry.isIntersecting && entryBottom === 0) {
+    var entry = entry.getBoundingClientRect();
+    if (entry.isIntersecting && entry.bottom === 0) {
       entry.target.classList.add('show');
     }
   });
