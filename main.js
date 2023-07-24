@@ -72,7 +72,7 @@ Array(200).fill().forEach(addStar);
 const spaceTexture = new THREE.TextureLoader().load('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg');
 scene.background = spaceTexture;
 
-const jeffTexture = new THREE.TextureLoader().load('public/img/jeff.png');
+const jeffTexture = new THREE.TextureLoader().load('Asvo777/3D-Space-Website/public/img/jeff.png');
 const jeff = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
   new THREE.MeshBasicMaterial({map: jeffTexture}),
