@@ -9,18 +9,17 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry)
-    var rectEntry = entry.getBoundingClientRect();
-    if (entry.isIntersecting && rectEntry.bottom <= 0) {
+    const rectEntry = entry.getBoundingClientRect();
+    if (entry.isIntersecting && rectEntry.bottom > 0 && rectEntry.top > 0) {
       entry.target.classList.add('show');
+      entry.target.classList.remove('hide');
     }
   });
 });
 
 const hiddenElements = document.querySelectorAll(".hide");
-console.log(hiddenElements[0]);
-observer.observe(hiddenElements);
-//hiddenElements.forEach((el) => observer.observe(el));
-
+console.log(el);
+hiddenElements.forEach((el) => observer.observe(el));
 
 //ANIMATED 3D BACKGROUND
 
