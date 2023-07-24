@@ -100,6 +100,10 @@ h2{
   margin:1200px 0 600px 0;
 }
 
+#moon-title h1{
+  position: relative;
+  font-size: 100px;
+}
 
 #moon-title h2{
   position: relative;
