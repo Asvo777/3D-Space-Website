@@ -18,6 +18,14 @@ nav{
   padding-bottom: 2px;
 }
 
+.nav-link {
+  color: rgba(174, 174, 174, 0.728);
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
 #main{
   position: absolute;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -35,15 +43,8 @@ h2{
   left: 38px;
 }
 
-#earth, #moon {
+#moon {
   height: auto;
-  color: rgba(174, 174, 174, 0.728);
-}
-
-
-#earth:hover, #moon:hover {
-  height: auto;
-  color: aqua;
 }
 
 .earth-title h1{
