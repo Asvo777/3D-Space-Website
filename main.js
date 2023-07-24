@@ -37,6 +37,7 @@ const moonTexture = new THREE.TextureLoader().load('https://public-files.gumroad
 const material = new THREE.MeshStandardMaterial({map: moonTexture});
 const moon = new THREE.Mesh(geometry, material);
 moon.position.set(30,0.7,30)
+moon.rotation.y = 30;
 scene.add(moon);
 
 const pointLight = new THREE.PointLight(0xffffff);
@@ -87,8 +88,6 @@ earth.rotation.z = 0.2;
 earth.rotation.x = 0.15;
 scene.add(earth);
 
-var rect = document.querySelector("#moon-fact-1");
-var rrect = rect.getBoundingClientRect();
 
 let t;
 function moveCamera() {
@@ -103,7 +102,6 @@ function moveCamera() {
     camera.position.y = t * -0.0001
   }
   camera.position.z = t * -0.003  + 10;
-  console.log("Div coordinate: " + rrect.bottom)
 }
 
 document.body.onscroll = moveCamera;
