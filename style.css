@@ -43,6 +43,7 @@ h2{
 
 .earth-title, .moon-title{
   padding-top: 30px;
+  width: min-content;
 }
 
 .earth-details h1{
