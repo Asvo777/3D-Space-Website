@@ -69,7 +69,7 @@ function addStar(){
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg');
 scene.background = spaceTexture;
 
 const jeffTexture = new THREE.TextureLoader().load('public/img/jeff.png');
