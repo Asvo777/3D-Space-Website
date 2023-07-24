@@ -41,22 +41,6 @@ h2{
   height: auto;
 }
 
-.earth-title, .moon-title{
-  padding-top: 30px;
-  width: min-content;
-}
-
-.earth-details h1{
-  width: fit-content;
-  font-size: 100px;
-  margin: 80px 0 0 40px;
-  border-bottom: solid #fafdff;
-}
-
-.earth-details h2{
-  font-size: 35px;
-}
-
 .earth-title img{
   text-align: center;
   margin: 0px 0 20px 35%;
@@ -116,10 +100,6 @@ h2{
   margin:1200px 0 600px 0;
 }
 
-#moon-title h1{
-  position: relative;
-  font-size: 100px;
-}
 
 #moon-title h2{
   position: relative;
