@@ -42,7 +42,7 @@ h2{
 .earth-title h1{
   position: relative;
   font-size: 100px;
-  left: 30px;
+  left: 35px;
 }
 
 .earth-title h2{
@@ -111,11 +111,12 @@ h2{
 #moon-title h1{
   position: relative;
   font-size: 100px;
-  left: 40px;
+  left: 20px;
 }
 
 #moon-title h2{
   position: relative;
+  left: -25px;
   font-size: 30px;
 }
 
