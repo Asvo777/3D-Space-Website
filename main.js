@@ -37,7 +37,7 @@ camera.position.z  = 10;
 renderer.render(scene,camera);
 
 const geometry = new THREE.SphereGeometry(1, 32, 32);
-const moonTexture = new THREE.TextureLoader().load('https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_1k.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_3_8bit.jpg');
 const material = new THREE.MeshStandardMaterial({map: moonTexture});
 const moon = new THREE.Mesh(geometry, material);
 moon.position.set(30,0.7,30)
@@ -69,7 +69,7 @@ function addStar(){
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://blenderartists.org/uploads/default/optimized/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b_2_1024x576.jpg');
 scene.background = spaceTexture;
 
 const jeffTexture = new THREE.TextureLoader().load('Asvo777/3D-Space-Website/public/img/jeff.png');
