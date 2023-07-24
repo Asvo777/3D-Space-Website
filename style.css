@@ -41,6 +41,14 @@ h2{
   height: auto;
 }
 
+.earth-title h1{
+  font-size: 100px;
+}
+
+.earth-title h3{
+  font-size: 35px;
+}
+
 .earth-title img{
   text-align: center;
   margin: 0px 0 20px 35%;
