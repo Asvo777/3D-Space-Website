@@ -69,13 +69,6 @@ Array(200).fill().forEach(addStar);
 const spaceTexture = new THREE.TextureLoader().load('https://blenderartists.org/uploads/default/optimized/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b_2_1024x576.jpg');
 scene.background = spaceTexture;
 
-const jeffTexture = new THREE.TextureLoader().load('Asvo777/3D-Space-Website/public/img/jeff.png');
-const jeff = new THREE.Mesh(
-  new THREE.BoxGeometry(3,3,3),
-  new THREE.MeshBasicMaterial({map: jeffTexture}),
-);
-//scene.add(jeff);
-
 const earthTexture = new THREE.TextureLoader().load('https://static.wikia.nocookie.net/7e70da43-c141-4541-b49d-2ee513736a2e/scale-to-width/755');
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(4, 32, 32),
