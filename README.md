@@ -21,7 +21,3 @@ To improve my knowledge of web development, I followed a tutorial to create a 3D
 - Source of information about the Earth and Moon :
   - https://en.wikipedia.org/wiki/Earth
   - https://en.wikipedia.org/wiki/Moon
-
-( Source:  )
-( Video: https://youtu.be/Q7AOvWpIVHU )
-### Add Wikipedia link and tutorial video contribution
