@@ -15,6 +15,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hide");
 hiddenElements.forEach((el) => observer.observe(el));
 
+
 //ANIMATED 3D BACKGROUND
 
 
@@ -40,17 +41,8 @@ moon.position.set(30,0.7,30)
 moon.rotation.y = 30;
 scene.add(moon);
 
-const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(0,0,0);
-
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
-
-const lightHelper = new THREE.PointLightHelper(pointLight);
-scene.add(lightHelper);
-// hi
-const gridHelper = new THREE.GridHelper(200,50);
-scene.add(gridHelper);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
