@@ -41,6 +41,9 @@ moon.position.set(30,0.7,30)
 moon.rotation.y = 30;
 scene.add(moon);
 
+const pointLight = new THREE.PointLight(0xffffff);
+pointLight.position.set(0,0,0);
+
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
 
