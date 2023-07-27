@@ -2,13 +2,14 @@
 
 ## General Information
 
-#### Why did I made this project
+#### Motivation
 To improve my knowledge of web development, I followed a tutorial to create a 3D website ( Video : https://youtu.be/Q7AOvWpIVHU ). Afterwards, I wanted to continue the project by making a website about the Earth and the Moon.
 
 #### Project Description
 ...
 
 ## Technologies
+<b>Build with:</b>
 - HTML
 - CSS
 - JavaScript
